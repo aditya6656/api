@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="18" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18657" started-at="2019-11-04T07:26:28Z" finished-at="2019-11-04T07:26:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18657" started-at="2019-11-04T07:26:28Z" finished-at="2019-11-04T07:26:47Z">
+      <class name="API.RestAssured.Put_Request">
+        <test-method status="PASS" signature="log4j()[pri:0, instance:API.RestAssured.Put_Request@192b07fd]" name="log4j" is-config="true" duration-ms="5" started-at="2019-11-04T07:26:34Z" finished-at="2019-11-04T07:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method status="PASS" signature="PutRequest()[pri:0, instance:API.RestAssured.Put_Request@192b07fd]" name="PutRequest" is-config="true" duration-ms="2" started-at="2019-11-04T07:26:34Z" finished-at="2019-11-04T07:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutRequest -->
+        <test-method status="PASS" signature="PutRequest1()[pri:0, instance:API.RestAssured.Put_Request@192b07fd]" name="PutRequest1" duration-ms="2446" started-at="2019-11-04T07:26:34Z" finished-at="2019-11-04T07:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutRequest1 -->
+        <test-method status="PASS" signature="PutRequest2()[pri:0, instance:API.RestAssured.Put_Request@192b07fd]" name="PutRequest2" duration-ms="2011" started-at="2019-11-04T07:26:36Z" finished-at="2019-11-04T07:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutRequest2 -->
+      </class> <!-- API.RestAssured.Put_Request -->
+      <class name="API.RestAssured.patch_Request">
+        <test-method status="PASS" signature="log4j()[pri:0, instance:API.RestAssured.patch_Request@64bfbc86]" name="log4j" is-config="true" duration-ms="5" started-at="2019-11-04T07:26:38Z" finished-at="2019-11-04T07:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method status="PASS" signature="patch()[pri:0, instance:API.RestAssured.patch_Request@64bfbc86]" name="patch" is-config="true" duration-ms="2" started-at="2019-11-04T07:26:38Z" finished-at="2019-11-04T07:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch -->
+        <test-method status="PASS" signature="PatchRequest1()[pri:0, instance:API.RestAssured.patch_Request@64bfbc86]" name="PatchRequest1" duration-ms="2219" started-at="2019-11-04T07:26:38Z" finished-at="2019-11-04T07:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchRequest1 -->
+        <test-method status="PASS" signature="PatchRequest2()[pri:0, instance:API.RestAssured.patch_Request@64bfbc86]" name="PatchRequest2" duration-ms="1874" started-at="2019-11-04T07:26:41Z" finished-at="2019-11-04T07:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchRequest2 -->
+      </class> <!-- API.RestAssured.patch_Request -->
+      <class name="API.RestAssured.delete_Request">
+        <test-method status="PASS" signature="log4j()[pri:0, instance:API.RestAssured.delete_Request@64bf3bbf]" name="log4j" is-config="true" duration-ms="4" started-at="2019-11-04T07:26:43Z" finished-at="2019-11-04T07:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method status="PASS" signature="Delete()[pri:0, instance:API.RestAssured.delete_Request@64bf3bbf]" name="Delete" is-config="true" duration-ms="1" started-at="2019-11-04T07:26:43Z" finished-at="2019-11-04T07:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method status="PASS" signature="DeleteRequest1()[pri:0, instance:API.RestAssured.delete_Request@64bf3bbf]" name="DeleteRequest1" duration-ms="1949" started-at="2019-11-04T07:26:43Z" finished-at="2019-11-04T07:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteRequest1 -->
+        <test-method status="PASS" signature="DeleteRequest2()[pri:0, instance:API.RestAssured.delete_Request@64bf3bbf]" name="DeleteRequest2" duration-ms="2250" started-at="2019-11-04T07:26:45Z" finished-at="2019-11-04T07:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteRequest2 -->
+      </class> <!-- API.RestAssured.delete_Request -->
+      <class name="API.RestAssured.Get_Request">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:API.RestAssured.Get_Request@49993335]" name="reportSetup" is-config="true" duration-ms="122" started-at="2019-11-04T07:26:28Z" finished-at="2019-11-04T07:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="log4j()[pri:0, instance:API.RestAssured.Get_Request@49993335]" name="log4j" is-config="true" duration-ms="23" started-at="2019-11-04T07:26:28Z" finished-at="2019-11-04T07:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method status="PASS" signature="GetRequest()[pri:0, instance:API.RestAssured.Get_Request@49993335]" name="GetRequest" is-config="true" duration-ms="444" started-at="2019-11-04T07:26:28Z" finished-at="2019-11-04T07:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequest -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:API.RestAssured.Get_Request@49993335]" name="Test1" duration-ms="2015" started-at="2019-11-04T07:26:29Z" finished-at="2019-11-04T07:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:API.RestAssured.Get_Request@49993335]" name="Test2" duration-ms="1172" started-at="2019-11-04T07:26:31Z" finished-at="2019-11-04T07:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:API.RestAssured.Get_Request@49993335]" name="reportTeardown" is-config="true" duration-ms="235" started-at="2019-11-04T07:26:47Z" finished-at="2019-11-04T07:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- API.RestAssured.Get_Request -->
+      <class name="API.RestAssured.Post_Request">
+        <test-method status="PASS" signature="log4j()[pri:0, instance:API.RestAssured.Post_Request@20322d26]" name="log4j" is-config="true" duration-ms="5" started-at="2019-11-04T07:26:32Z" finished-at="2019-11-04T07:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4j -->
+        <test-method status="PASS" signature="Post()[pri:0, instance:API.RestAssured.Post_Request@20322d26]" name="Post" is-config="true" duration-ms="2" started-at="2019-11-04T07:26:32Z" finished-at="2019-11-04T07:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Post -->
+        <test-method status="PASS" signature="post()[pri:0, instance:API.RestAssured.Post_Request@20322d26]" name="post" duration-ms="1045" started-at="2019-11-04T07:26:32Z" finished-at="2019-11-04T07:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:API.RestAssured.Post_Request@20322d26]" name="test2" duration-ms="1156" started-at="2019-11-04T07:26:33Z" finished-at="2019-11-04T07:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- API.RestAssured.Post_Request -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

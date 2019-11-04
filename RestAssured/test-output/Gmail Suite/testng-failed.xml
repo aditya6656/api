@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test thread-count="1" name="Get_Request(failed)" parallel="tests">
+    <classes>
+      <class name="API.RestAssured.Get_Request">
+        <methods>
+          <include name="reportTeardown"/>
+          <include name="log4j"/>
+          <include name="GetRequest"/>
+          <include name="reportSetup"/>
+          <include name="ady"/>
+        </methods>
+      </class> <!-- API.RestAssured.Get_Request -->
+    </classes>
+  </test> <!-- Get_Request(failed) -->
+  <test thread-count="1" name="Post_Request(failed)" parallel="tests">
+    <classes>
+      <class name="API.RestAssured.Post_Request">
+        <methods>
+          <include name="reportTeardown"/>
+          <include name="log4j"/>
+          <include name="test4"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- API.RestAssured.Post_Request -->
+    </classes>
+  </test> <!-- Post_Request(failed) -->
+  <test thread-count="1" name="Put_Request(failed)" parallel="tests">
+    <classes>
+      <class name="API.RestAssured.Put_Request">
+        <methods>
+          <include name="reportTeardown"/>
+          <include name="log4j"/>
+          <include name="reportSetup"/>
+          <include name="UpdateRecords"/>
+        </methods>
+      </class> <!-- API.RestAssured.Put_Request -->
+    </classes>
+  </test> <!-- Put_Request(failed) -->
+  <test thread-count="1" name="patch_Request(failed)" parallel="tests">
+    <classes>
+      <class name="API.RestAssured.patch_Request">
+        <methods>
+          <include name="UpdateRecords"/>
+          <include name="reportTeardown"/>
+          <include name="log4j"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- API.RestAssured.patch_Request -->
+    </classes>
+  </test> <!-- patch_Request(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->
